@@ -32,6 +32,24 @@ namespace Graphical_Programming_Language_Application
             
         }
 
+        /// <summary>
+        /// getting value in variable and use of getter setter
+        /// </summary>
+        /// <param name="texturestyle"></param>
+        /// <param name="bb"></param>
+        /// <param name="c1"></param>
+        /// <param name="list"></param>
+        public override void set(int texturestyle, Brush bb, Color c1, params int[] list)
+        {
+            this.texturestyle = texturestyle;
+            this.bb = bb;
+            this.c1 = c1;
+            this.x = list[0];
+            this.y = list[1];
+            this.size = list[2];
+            this.size1 = list[3];
+        }
+    }
+}
 
 
-       

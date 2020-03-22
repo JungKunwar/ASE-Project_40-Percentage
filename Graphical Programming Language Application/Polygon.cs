@@ -27,7 +27,23 @@ namespace Graphical_Programming_Language_Application
                 g.FillPolygon(bb, points);
             }
         }
+        public override void set(int texturestyle, Brush bb, Color c1, params int[] list)
+        {
+            this.texturestyle = texturestyle;
+            this.bb = bb;
+            this.c1 = c1;
+            this.size1 = list[0];
+            this.size2 = list[1];
+            this.size3 = list[2];
+            this.size4 = list[3];
+            this.size5 = list[4];
+            this.size6 = list[5];
+            this.size7 = list[6];
+            this.size8 = list[7];
+            this.size9 = list[8];
+            this.size10 = list[9];
 
-     
+        }
+
     }
 }
